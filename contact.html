@@ -220,7 +220,7 @@
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
-										<input type="text" placeholder="Phone Number" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control bg-color-tertiary"  name="phone" id="phone" required>
+										<input type="text" placeholder="Phone Number" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control bg-color-tertiary"  name="phone" id="phone">
 									</div>
 								</div>
 								<div class="form-row">
@@ -255,7 +255,7 @@
 											</div>
 											<div class="col-10 col-lg-11">
 												<h4 class="text-secondary font-weight-bold text-capitalize mb-1">Adress</h4>
-												<p class="mb-0">123 Street Name, City, England</p>
+												<p class="mb-0">Point Cook, Victoria, Australia</p>
 											</div>
 										</div>
 										<hr>
@@ -265,7 +265,7 @@
 											</div>
 											<div class="col-10 col-lg-11">
 												<h4 class="text-secondary font-weight-bold text-capitalize mb-1">Phone Number</h4>
-												<p class="mb-0"><a href="#" class="text-color-default">(800) 123-4567</a></p>
+												<p class="mb-0"><a href="#" class="text-color-default">+61 412 424 780</a></p>
 											</div>
 										</div>
 										<hr>
@@ -275,7 +275,7 @@
 											</div>
 											<div class="col-10 col-lg-11">
 												<h4 class="text-secondary font-weight-bold text-capitalize mb-1">E-mail Address</h4>
-												<p class="mb-0"><a class="px-0 text-default" href="mailto:mail@domain.com">porto@construction.com</a></p>
+												<p class="mb-0"><a class="px-0 text-default" href="info@themagicsisterscare.com.au">info@themagicsisterscare.com.au</a></p>
 											</div>
 										</div>
 										<hr>
@@ -285,7 +285,7 @@
 											</div>
 											<div class="col-10 col-lg-11">
 												<h4 class="text-secondary font-weight-bold text-capitalize mb-1">Working days/Hours</h4>
-												<p class="mb-1">Mon - Sun / 9:00AM - 8:00PM</p>
+												<p class="mb-1">SUNDAY - FRIDAY / 9:00AM - 6:00PM / SATURDAY - CLOSED</p>
 											</div>
 										</div>
 									</div>
@@ -296,17 +296,10 @@
 				</div>
 
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<div id="googlemaps" class="google-map custom-map"></div>
+				<!-- removing map for the time being -->
+				<!--div id="googlemaps" class="google-map custom-map"></div-->
 			   
 			</div>
-			<section class="bg-color-primary">
-				<div class="container container-lg-custom text-center align-items-center justify-content-center py-4">
-					<div class="row align-items-center justify-content-center ">
-						<h2 class="d-inline text-light font-weight-bold my-0 float-right px-4 mb-3 mb-lg-0">Join more than 100K people who trust Porto</h2>
-						<a href="demo-construction-2-contact-us.html" class="btn btn-outline btn-light rounded-0 text-hover-dark custom-btn-white text-3 font-weight-bold mt-4 mb-2 my-md-0 px-5 ml-2 py-3">GET A QUOTE</a>
-					</div>
-				</div>
-			</section>
 			<footer id="footer" class="bg-color-secondary border-top-0 mt-0 custom-footer">
 				<div class="container container-lg-custom py-md-1">
 					<div class="row justify-content-md-center py-5">
@@ -477,8 +470,8 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "New York, NY 10017",
-				html: "<strong>Porto Construction 2</strong><br>New York, NY 10017",
+				address: "Point Cook, Victoria, Australia",
+				html: "<strong>The Magic Sisters Care</strong><br>Point Cook, Victoria, Australia",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -488,8 +481,8 @@
 			}];
 
 			// Map Initial Location
-			var initLatitude = 40.75198;
-			var initLongitude = -73.96978;
+			var initLatitude = -37.908581;
+			var initLongitude = 144.752029;
 
 			// Map Extended Settings
 			var mapSettings = {
