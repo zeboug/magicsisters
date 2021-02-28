@@ -196,10 +196,14 @@
 						<div class="col-lg-7 pb-5">
 
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet placerat et, bibendum nec mauris. Duis molestie purus eget placerat viverra.
+								Use this form to reach out to us for feedback or if you have any question. Please do not include confidential information in this form.
 							</p>
 
-							<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
+							<!--form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST"-->
+							<form action="mailto:info@themagicsisterscare.com.au" method="get" enctype="text/plain" class="contact-form custom-form-style-1">
+								
+								<!-- this section will be reactivated when the email sending is fixed-->
+								<!--
 								<div class="contact-form-success alert alert-success d-none mt-4">
 									<strong>Success!</strong> Your message has been sent to us.
 								</div>
@@ -208,6 +212,7 @@
 									<strong>Error!</strong> There was an error sending your message.
 									<span class="mail-error-message text-1 d-block"></span>
 								</div>
+								
 								<div class="form-row">
 									<div class="form-group col">
 										<input type="text" placeholder="Your Name" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control bg-color-tertiary" name="name" id="name" required>
@@ -223,6 +228,7 @@
 										<input type="text" placeholder="Phone Number" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control bg-color-tertiary"  name="phone" id="phone">
 									</div>
 								</div>
+								-->
 								<div class="form-row">
 									<div class="form-group col">
 										<input type="text" placeholder="Subject" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control bg-color-tertiary" name="subject" id="subject" required>
@@ -230,12 +236,12 @@
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
-										<textarea maxlength="5000" placeholder="Message" data-msg-required="Please enter your message." rows="5" class="form-control bg-color-tertiary" name="message" id="message" required></textarea>
+										<textarea maxlength="5000" placeholder="Message" data-msg-required="Please enter your message." rows="5" class="form-control bg-color-tertiary" name="body" id="body" required></textarea>
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
-										<input type="submit" value="SEND MESSAGE" class="btn btn-outline btn-primary rounded-0 py-3 px-5 font-weight-semibold" data-loading-text="Loading...">
+										<input type="submit" name="submit" value="SEND MESSAGE" class="btn btn-outline btn-secondary rounded-0 py-3 px-5 font-weight-semibold">
 									</div>
 								</div>
 							</form>
@@ -442,7 +448,7 @@
 
 
 		<!-- Current Page Vendor and Views -->
-		<script src="js/views/view.contact.js"></script>
+		<!-- script src="js/views/view.contact.js"></script -->
 
 		<!-- Demo -->
 		<script src="js/demos/demo-construction-2.js"></script>
@@ -454,7 +460,7 @@
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
-
+		<!--
 		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 		<script>
 
@@ -544,7 +550,7 @@
 			mapRef.setMapTypeId('map_style');
 
 		</script>
-
+		-->
 
 		<!-- Examples -->
 		<script src="js/examples/examples.gallery.js"></script>	
